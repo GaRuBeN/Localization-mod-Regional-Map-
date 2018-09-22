@@ -1,0 +1,71 @@
+/************************BY_Hobotok************************/
+module CLHRM
+{
+
+item RegionalMapMag
+{
+	Type							= Literature,
+	DisplayName						= Cartography Magazine,
+	Icon							= RegionalMapMag,
+	Weight							= 0.1,
+	TeachedRecipes					= Make Regional Map;Make Regional Map2;Make Homemade Map Riverside;Make Homemade Map Riverside2;Make The Island Map;Make The Island Map2;Make Louisiana Map;Make Louisiana Map2;Make West Point Quarantine Border Map;Make West Point Quarantine Border Map2,
+	ReplaceOnUse					= RegionalMapMag,
+	Tooltip = Tooltip_item_RegionalMapMag,
+}
+
+    item RegionMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Regional Map,
+        Icon				=			RegionalMap,
+        Weight				=			0.2,
+        Map                 =           media/ui/LootableMaps/RegionalMap.png,
+	Tooltip = Tooltip_item_RegionMap,
+	}
+
+    item RiversideNewMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Homemade Map Riverside,
+        Icon				=			RiversideNewMap,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/RiversideNewMap.png,
+	Tooltip = Tooltip_item_RiversideNewMap,
+	}
+    item TheIslandMapNew
+    {
+        Type				=			Normal,
+        DisplayName			=		    The Midway Island Map,
+        Icon				=			NewMap,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/TheIslandMapNew.png,
+	Tooltip = Tooltip_item_TheIslandMapNew,
+	}
+    item LouisianaNewMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Homemade Louisiana Map,
+        Icon				=			NewMap,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/LouisianaNewMap.png,
+	Tooltip = Tooltip_item_LouisianaNewMap,
+	}
+    item WestPointQuarantineBorderNewMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Homemade West Point Quarantine Border Map,
+        Icon				=			NewMap,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/WestPointQuarantineBorderNewMap.png,
+	Tooltip = Tooltip_item_WestPointQuarantineBorderNewMap,
+	}
+    item KnoxNewMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Homemade Knox Map,
+        Icon				=			NewMap,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/KnoxNewMap.png,
+	Tooltip = Tooltip_item_KnoxNewMap,
+	}
+}

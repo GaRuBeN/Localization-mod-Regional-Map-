@@ -1,0 +1,40 @@
+module Base
+{
+	
+    item Theislandmap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Mapa de Isla Midway,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/Theislandmap.png,
+    }
+
+    item Louisianamap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Mapa de Louisiana,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/LouisianaMap.png,
+    }
+
+    item WestPointQuarantineBorderMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Mapa de la Frontera de Cuarentena de West Point,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/WestPointQuarantineBorderMap.png,
+    }
+
+    item KnoxMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Knox Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/KnoxMap.png,
+    }
+}
+

@@ -1,0 +1,406 @@
+module CLHRM
+{
+    imports
+    {
+        Base
+    }
+
+    recipe Make Regional Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Pen,
+	Base.Pencil,
+	Base.RedPen,
+	Base.BluePen,
+	Base.WestpointMap,
+	Base.MarchRidgeMap,
+	Base.MuldraughMap,
+	Base.RiversideMap,
+	Base.RosewoodMap,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RegionMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+
+    recipe Make Regional Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.WestpointMap,
+	Base.MarchRidgeMap,
+	Base.MuldraughMap,
+	Base.RiversideMap,
+	Base.RosewoodMap,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RegionMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+
+    recipe Make Homemade Map Riverside
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.RiversideMap,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RiversideNewMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade Map Riverside2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Pen,
+	Base.Pencil,
+	Base.RedPen,
+	Base.BluePen,
+	Base.RiversideMap,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RegionMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade The Island Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.Theislandmap,
+
+	Result:TheIslandMapNew,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade The Island Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Pen,
+	Base.Pencil,
+	Base.RedPen,
+	Base.BluePen,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.Theislandmap,
+
+	Result:TheIslandMapNew,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade Louisiana Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.Louisianamap,
+
+	Result:LouisianaNewMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade Louisiana Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Pen,
+	Base.Pencil,
+	Base.RedPen,
+	Base.BluePen,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.Louisianamap,
+
+	Result:LouisianaNewMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade West Point Quarantine Border Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Pen,
+	Base.Pencil,
+	Base.RedPen,
+	Base.BluePen,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.WestPointQuarantineBorderMap,
+
+	Result:WestPointQuarantineBorderNewMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade West Point Quarantine Border Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.WestPointQuarantineBorderMap,
+
+	Result:WestPointQuarantineBorderNewMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade Knox Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.KnoxMap,
+
+	Result:KnoxNewMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Homemade Knox Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+	Base.KnoxMap,
+
+	Result:KnoxNewMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+---------------Новичек картограф\Novice Cartographer---------------
+    recipe Make Midway Island Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:Theislandmap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Midway Island Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:Theislandmap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make Louisiana Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:Louisianamap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Louisiana Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:Louisianamap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make West Point Quarantine Border Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:WestPointQuarantineBorderMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make West Point Quarantine Border Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:WestPointQuarantineBorderMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make Knox Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:KnoxMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Knox Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:KnoxMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make Westpoint Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:WestpointMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Westpoint Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:WestpointMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make March Ridge Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:MarchRidgeMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make March Ridge Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:MarchRidgeMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make Muldraugh Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:MuldraughMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Muldraugh Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:MuldraughMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make Rosewood Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RosewoodMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Rosewood Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RosewoodMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+    recipe Make Riverside Map
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RiversideMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+     }
+    recipe Make Riverside Map2
+    {
+	Base.Book,
+	Base.Eraser,
+	Base.Crayons,
+	Base.SheetPaper/Base.SheetPaper2,
+
+	Result:RiversideMap,
+	Time:800,
+        Category:Cartography,
+	NeedToBeLearn:true,
+	}
+}
