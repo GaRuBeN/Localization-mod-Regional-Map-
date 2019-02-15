@@ -3,6 +3,6 @@ UI_ES = {
 	UI_profdesc_Cartographer = "Puede dibujar mapas con indicaciones",
 	UI_trait_Masterofmaps = "Maestro de mapas",
 	UI_trait_Masterofmapsdesc = "Tienes un don para la navegación",
-	UI_trait_traitNovicecartographer = "Cartógrafo Novato",
+	UI_trait_traitNovicecartographer = "Cartógrafo novato",
 	UI_trait_traitNovicecartographerdesc = "Intentas unir al mundo y sus supervivientes",
 }
