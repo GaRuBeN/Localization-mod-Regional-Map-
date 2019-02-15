@@ -35,7 +35,7 @@ item RegionalMapMag
     item TheIslandMapNew
     {
         Type				=			Normal,
-        DisplayName			=		    El Mapa de Isla Midway,
+        DisplayName			=		    Mapa de Isla Midway,
         Icon				=			NewMap,
         Weight				=			0.1,
         Map                 =           media/ui/LootableMaps/TheIslandMapNew.png,
