@@ -31,10 +31,9 @@ module Base
     item KnoxMap
     {
         Type				=			Normal,
-        DisplayName			=		    Knox Map,
+        DisplayName			=		    Mapa de Knox,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           media/ui/LootableMaps/KnoxMap.png,
     }
 }
-
