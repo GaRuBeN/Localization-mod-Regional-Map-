@@ -30,7 +30,7 @@ Recipe_ES = {
 	Recipe_Make_Midway_Island_Map = "Crear el Mapa de Isla Midway (Simple)",
 	Recipe_Make_Midway_Island_Map2 = "Crear el Mapa de Isla Midway (Simple)",
 	Recipe_Make_Bedford_Falls_Map = "Crear Mapa de Bedford Falls (Simple)",
-	Recipe_Make_Bedford_Falls_Map2 = Crear Mapa de Bedford Falls (Simple)",
+	Recipe_Make_Bedford_Falls_Map2 = "Crear Mapa de Bedford Falls (Simple)",
 	Recipe_Make_Homemade_Bedford_Falls_Map = "Crear Mapa de Bedford Falls (Isométrico)",
 	Recipe_Make_Homemade_Bedford_Falls_Map2 = "Crear Mapa de Bedford Falls (Isométrico)",
 }
