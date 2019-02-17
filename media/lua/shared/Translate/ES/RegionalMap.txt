@@ -5,14 +5,66 @@ module CLHRM
 item RegionalMapMag
 {
 	Type							= Literature,
-	DisplayName						= Revista de Cartografía,
+	DisplayName						= Revista de Cartografía Vol.1,
 	Icon							= RegionalMapMag,
 	Weight							= 0.1,
-	TeachedRecipes					= Make Regional Map;Make Regional Map2;Make Homemade Map Riverside;Make Homemade Map Riverside2;Make The Island Map;Make The Island Map2;Make Louisiana Map;Make Louisiana Map2;Make West Point Quarantine Border Map;Make West Point Quarantine Border Map2,
+	TeachedRecipes					= Make Regional Map;Make Regional Map2;Make Midway Island Map;Make Midway Island Map2;Make Louisiana Map;Make Louisiana Map2;Make West Point Quarantine Border Map;Make West Point Quarantine Border Map2;Make Knox Map;Make Knox Map2;Make Westpoint Map;Make Westpoint Map2;Make March Ridge Map;Make March Ridge Map2;Make Muldraugh Map;Make Muldraugh Map2;Make Rosewood Map;Make Rosewood Map2;Make Riverside Map;Make Riverside Map2;Make Bedford Falls Map;Make Bedford Falls Map2,
+	ReplaceOnUse					= RegionalMapMag,
+	Tooltip = Tooltip_item_RegionalMapMag,
+}
+item RegionalMapMag2
+{
+	Type							= Literature,
+	DisplayName						= Revista de Cartografía Vol.2,
+	Icon							= RegionalMapMag2,
+	Weight							= 0.1,
+	TeachedRecipes					= Make Regional Map;Make Regional Map2;Make Homemade Map Riverside;Make Homemade Map Riverside2;Make Homemade The Island Map;Make Homemade The Island Map2;Make Homemade Louisiana Map;Make Homemade Louisiana Map2;Make Homemade West Point Quarantine Border Map;Make Homemade West Point Quarantine Border Map2;Make Homemade Knox Map;Make Homemade Knox Map2;Make Homemade Bedford Falls Map;Make Homemade Bedford Falls Map2,
 	ReplaceOnUse					= RegionalMapMag,
 	Tooltip = Tooltip_item_RegionalMapMag,
 }
 
+-----------------Èíñòðóìåíòû---
+	item Calipers
+    {
+        Type				=			Normal,
+        DisplayName			=		    Calibres,
+        Icon				=			Calipers,
+        Weight				=			0.2,
+	Tooltip = Tooltip_item_Dividers,
+	}
+	item Sketches
+    {
+        Type				=			Normal,
+        DisplayName			=		    Bocetos,
+        Icon				=			Sketches,
+        Weight				=			0.1,
+	Tooltip = Tooltip_item_Sketches,
+	}
+	item Plan
+    {
+        Type				=			Normal,
+        DisplayName			=		    Plano,
+        Icon				=			Plan,
+        Weight				=			0.1,
+	Tooltip = Tooltip_item_Plan,
+	}
+	item Graphite
+    {
+        Type				=			Normal,
+        DisplayName			=		    Minas de grafito,
+        Icon				=			Graphite,
+        Weight				=			0.2,
+	Tooltip = Tooltip_item_Graphite,
+	}
+	item Ruler
+    {
+        Type				=			Normal,
+        DisplayName			=		    Regla,
+        Icon				=			Ruler,
+        Weight				=			0.2,
+	Tooltip = Tooltip_item_Straightedge,
+	}
+----------------
     item RegionMap
     {
         Type				=			Normal,
@@ -35,7 +87,7 @@ item RegionalMapMag
     item TheIslandMapNew
     {
         Type				=			Normal,
-        DisplayName			=		    Mapa de Isla Midway,
+        DisplayName			=		    Mapa de Isla Midway (Casero),
         Icon				=			NewMap,
         Weight				=			0.1,
         Map                 =           media/ui/LootableMaps/TheIslandMapNew.png,
@@ -67,5 +119,14 @@ item RegionalMapMag
         Weight				=			0.1,
         Map                 =           media/ui/LootableMaps/KnoxNewMap.png,
 	Tooltip = Tooltip_item_KnoxNewMap,
+	}
+    item BedfordFallsNewMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Mapa de BedfordFalls (Casero),
+        Icon				=			NewMap,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/BedfordFallsNewMap.png,
+	Tooltip = Tooltip_item_BedfordFallsNewMap,
 	}
 }
