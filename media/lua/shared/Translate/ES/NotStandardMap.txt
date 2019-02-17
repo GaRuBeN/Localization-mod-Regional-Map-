@@ -36,4 +36,12 @@ module Base
         Weight				=			0.1,
         Map                 =           media/ui/LootableMaps/KnoxMap.png,
     }
+    item BedfordFallsMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Mapa de Bedford Falls,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/BedfordFallsMap.png,
+    }
 }
